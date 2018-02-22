@@ -1,0 +1,30 @@
+* {
+  background-color: hsl(208, 20%, 50%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  width: 960px;
+  border-bottom: 10px solid #00FFED;
+  padding-bottom: 10px; 
+}
+
+select {
+  font-size: 20px;
+  background-color: gray;
+}
+
+option {
+  background-color: gray;
+}
+
+footer {
+  padding-top: 15px;
+  border-top: 10px solid #00FFED;
+}

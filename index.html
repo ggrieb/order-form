@@ -8,3 +8,53 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
   <title>Order Form</title>
 </head>
+
+<body>
+  <header>
+    <img src="img/metro-busmall960.jpg"/>
+  </header>
+
+  <form id="order-form">
+    <fieldset>
+    <select id="product-drop-down">
+    </select>
+
+    <label for="prodAmount">Amount: </label>
+    <input name="prodAmount" type="text" size="4" id="prodAmount"/>
+
+    <button type="addToCart">Add to Cart</button>
+    
+    <button type="clearCart">Clear Cart</button>
+
+    <p>Please Enter Shipping Address Below</p>
+
+    <label for="userName">Name: </label>
+    <input name="userName" type="text" size="20" id="userName"/></br>
+
+    <label for="address">Street Address: </label>
+    <input name="address" type="text" size="30" id="address"/></br>
+    
+    <label for="city">City: </label>
+    <input name="city" type="text" size="15" id="city"/>
+
+    <label for="state">State: </label>
+    <input name="state" type="text" size="3"/>
+
+    <label for="zip-code">Zip Code:</label>
+    <input name="zip-code" type="text" size="10"/>
+    </fieldset>
+  </form>
+
+
+
+  <ul id="order-list">
+
+    </ul>
+
+  <footer>
+    <img src="img/metro-busmall960foot.jpg"/>
+  </footer>
+<script src="js/app.js"></script>
+</body>
+
+</html>
